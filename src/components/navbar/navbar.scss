@@ -1,0 +1,35 @@
+nav {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: right;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline;
+            padding: .5rem;
+        }
+    }
+
+    .navbar-logo {
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        width: 30%;
+    }
+}
+
+// Media queries displays > 1024px
+@media (min-width: 1025px) {
+
+    nav {
+        padding: 2rem;
+        
+        .navbar-logo {
+            width: 10%;
+        }
+    }
+
+}

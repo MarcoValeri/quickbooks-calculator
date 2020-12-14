@@ -1,0 +1,209 @@
+main {
+    padding: .5rem;
+
+    #main-gridcontainer {
+        display: grid;
+        background-color: #f4f5f8;
+
+        // Set grid containers
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "main-title main-title"
+        "main-input-sales main-input-commissions"
+        "main-input-construction main-input-otherincome"
+        "main-total main-total"
+        "main-social main-social"
+        "main-question main-question";
+
+        .main-title {
+            grid-area: main-title;
+        }
+
+        .main-input-sales {
+            grid-area: main-input-sales;
+        }
+
+        .main-input-commissions {
+            grid-area: main-input-commissions;
+        }
+
+        .main-input-construction {
+            grid-area: main-input-construction;
+        }
+
+        .main-input-otherincome {
+            grid-area: main-input-otherincome;
+        }
+
+        .main-total {
+            grid-area: main-total;
+        }
+
+        .main-social {
+            grid-area: main-social;
+        }
+
+        // End set grid container
+
+        .main-title {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .main-input {
+            padding: 1rem;
+
+            label {
+                color: #393a3d;
+            }
+
+            input {
+                width: 90%;
+                margin-top: .3rem;
+                padding: .3rem;
+                font-weight: 700;
+            }
+
+            ::placeholder {
+                color: #000;
+                font-weight: 700;
+            }
+        }
+
+        .main-total {
+            strong {
+                margin-left: 1rem;
+            }
+
+            .main-total-banner {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 2rem;
+                padding: 1rem;
+                background: linear-gradient(255.32deg, #00c1bf, #53b700);
+                color: #fff;
+                overflow: auto;
+            }
+        }
+
+        .main-social {
+            margin-top: 1rem;
+            padding: 1rem;
+            color: #393a3d;
+        }
+
+    }
+
+    .main-question {
+        margin-top: 0rem;
+        padding: 1rem;
+
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+}
+
+// Media queries displays > 1024px
+@media (min-width: 1025px) {
+
+    main {
+
+        #main-gridcontainer {
+            width: 40%;
+            margin: 0 auto;
+            padding: 5rem;
+
+            // Set grid containers
+
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "main-title main-title main-title main-title main-title"
+            "main-input-sales main-input-sales main-input-commissions main-input-commissions main-total"
+            "main-input-construction main-input-construction main-input-otherincome main-input-otherincome main-total"
+            "main-social main-social main-social main-social main-social"
+            "main-question main-question main-question main-question main-question";
+
+            .main-title {
+                grid-area: main-title;
+            }
+
+            .main-input-sales {
+                grid-area: main-input-sales;
+            }
+
+            .main-input-commissions {
+                grid-area: main-input-commissions;
+            }
+
+            .main-input-construction {
+                grid-area: main-input-construction;
+            }
+
+            .main-input-otherincome {
+                grid-area: main-input-otherincome;
+            }
+
+            .main-total {
+                grid-area: main-total;
+            }
+
+            .main-social {
+                grid-area: main-social;
+            }
+
+            .main-question {
+                grid-area: main-question;
+            }
+
+            // End set grid container
+
+            .main-title {
+                padding: 1rem;
+                margin-top: 0rem;
+                text-align: left;
+                font-size: 2rem;
+            }
+
+            .main-input {
+    
+                input {
+                    width: 100%;
+                }
+            }
+
+            .main-total {
+                transform: translate(50%, 12%);
+
+                strong {
+                    margin-left: -.1rem;
+                }
+
+                .main-total-banner {
+                    width: 200%;
+                    height: 50%;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        .main-question {
+            width: 40%;
+            margin: 2rem auto;
+            padding: 1rem;
+    
+            h2 {
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+                text-align: left;
+            }
+        }
+    }
+
+}
