@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quickbooks-calculator/static/css/main.b066f15c.chunk.css",
+    "main.css": "/quickbooks-calculator/static/css/main.a6d5ccf8.chunk.css",
     "main.js": "/quickbooks-calculator/static/js/main.2d82834e.chunk.js",
     "main.js.map": "/quickbooks-calculator/static/js/main.2d82834e.chunk.js.map",
     "runtime-main.js": "/quickbooks-calculator/static/js/runtime-main.9ccad314.js",
@@ -10,14 +10,14 @@
     "static/js/3.9ad811ad.chunk.js": "/quickbooks-calculator/static/js/3.9ad811ad.chunk.js",
     "static/js/3.9ad811ad.chunk.js.map": "/quickbooks-calculator/static/js/3.9ad811ad.chunk.js.map",
     "index.html": "/quickbooks-calculator/index.html",
-    "static/css/main.b066f15c.chunk.css.map": "/quickbooks-calculator/static/css/main.b066f15c.chunk.css.map",
+    "static/css/main.a6d5ccf8.chunk.css.map": "/quickbooks-calculator/static/css/main.a6d5ccf8.chunk.css.map",
     "static/js/2.14b7e58f.chunk.js.LICENSE.txt": "/quickbooks-calculator/static/js/2.14b7e58f.chunk.js.LICENSE.txt",
     "static/media/quickbooks-logo.fa9f9f17.svg": "/quickbooks-calculator/static/media/quickbooks-logo.fa9f9f17.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9ccad314.js",
     "static/js/2.14b7e58f.chunk.js",
-    "static/css/main.b066f15c.chunk.css",
+    "static/css/main.a6d5ccf8.chunk.css",
     "static/js/main.2d82834e.chunk.js"
   ]
 }
